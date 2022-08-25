@@ -1,6 +1,6 @@
 # Nome do Workflow
-name: install Requirements
-run: pip install flask flask-wtf
+- name: Install Requirements
+        run:  pip install flask flask-wtf
 
 # Evento que irá acionar a pipeline
 on: 
